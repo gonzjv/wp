@@ -15,6 +15,9 @@
  * @version 1.0
  */
 
+/*
+Template Name: About
+*/
 get_header(); ?>
 
 <div class="wrap">
