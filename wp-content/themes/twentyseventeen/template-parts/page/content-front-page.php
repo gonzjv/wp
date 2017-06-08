@@ -30,12 +30,12 @@
 
 	<div class="panel-content">
 		<div class="wrap">
-			<header class="entry-header">
-				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+<!--			<header class="entry-header">
+				<?php // the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 
-				<?php twentyseventeen_edit_link( get_the_ID() ); ?>
+				<?php // twentyseventeen_edit_link( get_the_ID() ); ?>
 
-			</header><!-- .entry-header -->
+			</header> .entry-header -->
 
 			<div class="entry-content">
 				<?php
