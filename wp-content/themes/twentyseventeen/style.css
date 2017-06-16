@@ -1303,8 +1303,8 @@ a:hover .nav-title,
 
 .navigation-top {
     background: #fff;
-    border-bottom: 1px solid #eee;
-    border-top: 1px solid #eee;
+/*    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;*/
     font-size: 16px;
     font-size: 1rem;
     position: relative;
@@ -3402,15 +3402,21 @@ object {
     .site-navigation-fixed.navigation-top {
         bottom: auto;
         position: fixed;
+        height: 50px;
+        padding-left: 1em;1
         left: 0;
         right: 0;
         top: 0;
         width: 100%;
-        z-index: 7;
+        z-index: 1000;
+        background-color: rgba(255,255,255,0.8  );
     }
 
     .admin-bar .site-navigation-fixed.navigation-top {
         top: 32px;
+        z-index: 1000;
+        background-color: rgba(255,255,255,0.8);
+        height: 3em;
     }
 
     /* Main Navigation */
@@ -3675,8 +3681,8 @@ object {
     }
 
     .page-two-column .panel-content .entry-content {
-        float: right;
-        width: 58%;
+        /*        float: right;
+                width: 58%;*/
     }
 
     /* Front Page - Recent Posts */
@@ -3765,8 +3771,8 @@ object {
     .error404.has-sidebar #primary .page-content,
     body.page-two-column:not(.archive) #primary .entry-content,
     body.page-two-column #comments {
-        float: right;
-        width: 58%;
+        /*float: right;*/
+        width: 100%;
     }
 
     .blog .site-main > article,
